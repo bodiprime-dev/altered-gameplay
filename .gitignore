@@ -1,0 +1,27 @@
+node_modules/
+.next/
+dist/
+build/
+out/
+.turbo/
+*.tsbuildinfo
+
+# Card data caches (clones from AlteredEquinox)
+packages/cards/.cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
